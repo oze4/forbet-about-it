@@ -1,4 +1,4 @@
-#### Firefox add-on to remove annoying 'disable ad-block' to continue overlay on Forbes.com
+#### Firefox add-on to remove annoying 'disable-ad-block-to-continue' overlay on Forbes.com
 
 Got sick of manually removing HTML for those 'disable your ad-block' overlays, so I wrote this.
 
