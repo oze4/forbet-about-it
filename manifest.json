@@ -1,0 +1,28 @@
+{
+    "manifest_version": 2,
+    "name": "Forbet About It",
+    "version": "1.0",
+
+    "description": "Blocks 'Ad-Blocker' overlay on Forbes",
+
+    "icons": {
+        "48": "icons/forbet.about.it.48.png"
+    },
+
+    "browser_action": {
+        "default_icon": {
+            "48": "icons/forbet.about.it.48.png"
+        }
+    },
+
+    "content_scripts": [{
+        "matches": ["*://*.forbes.com/*"],
+        "js": ["forbet.about.it.js"]
+    }],
+
+    "applications": {
+        "gecko": {
+            "id": "d8fd431a-fe54-4664-8664-b4a54cf4b32c@gmail.com"
+        }
+    }
+}
